@@ -1,0 +1,30 @@
+path: ./data/缺陷识别yolo/设备部件识别_without_ddjt_yx_tg
+train: images/train
+val: images/val
+test: 
+
+nc: 21
+#Classes
+names:
+  0: cysb_qyb
+  1: cysb_sgz
+  2: SF6ylb
+  3: drq
+  4: ecjxh
+  5: drqgd
+  6: cysb_lqq
+  7: cysb_qtjdq
+  8: xldlb
+  9: sly_dmyw
+  10: ywj
+  11: ywb
+  12: jdyxx
+  13: fhz_f
+  14: bmwh
+  15: xmbhzc
+  16: pzq
+  17: jyh
+  18: ywc
+  19: cysb_cyg
+  20: bjzc
+

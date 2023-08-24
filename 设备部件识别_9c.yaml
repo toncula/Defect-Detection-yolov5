@@ -1,0 +1,18 @@
+path: ./data/缺陷识别yolo/设备部件识别_9c
+train: images/train
+val: images/val
+test: 
+
+nc: 9
+#Classes
+names:
+  0: cysb_lqq
+  1: cysb_qtjdq
+  2: xldlb
+  3: ywj
+  4: jdyxx
+  5: pzq
+  6: jyh
+  7: ywc
+  8: cysb_cyg
+  
