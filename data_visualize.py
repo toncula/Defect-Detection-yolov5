@@ -28,9 +28,11 @@ for imgname in imglist:
         y2 = int(y + h/2)
         cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
         cv2.putText(img, classes[int(label[0])], (x1, y1), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 0, 255), 2)
-    cv2.imshow(imgname,img)
-    cv2.waitKey(0)
-    cv2.destroyWindow(imgname)
-    cv2.waitKey(1) 
+    #cv2.imshow(imgname,img)
+    spath = os.path.join(path, "visualize", imgname)
+    cv2.imwrite(spath, img)
+    #cv2.waitKey(0)
+    #cv2.destroyWindow(imgname)
+    #cv2.waitKey(1) 
 
 
